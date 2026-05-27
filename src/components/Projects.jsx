@@ -1,11 +1,18 @@
 import React from 'react'
 import { FiGithub } from 'react-icons/fi' // Import the GitHub icon
 import profileImg from '../assets/onlinceclothingstore.png'
-import attendanceImg from '../assets/attendancemarker.png'
+import chatapp from '../assets/chatapp.png'
 import noteImg from '../assets/note.png'
 
 const Projects = () => {
   const projectList = [
+     {
+      title: "Chat App",
+      description: "Developed during my third year of Computer Science, this full-stack e-commerce platform features a dynamic shopping experience built with PHP, MySQL, and jQuery. The application allows users to browse and search for clothing with real-time updates for size, color, and quantity-based pricing, supported by a multi-tier cart system and integrated Myanmar payment gateways including KBZPay, AYAPay, and WavePay. Designed with a robust three-tier authentication architecture, the system empowers Superadmins to manage roles, while Admins oversee inventory through automated low-stock notifications and verify pending orders to maintain seamless business operations.",
+      image: chatapp,
+      tags: ["Laravel", "Tailwind CSS", "Livewire", "MySQL"],
+      github: "https://github.com/Zayar-12/chat-app" // Placeholder link
+    },
     {
       title: "Online Clothing Store",
       description: "Developed during my third year of Computer Science, this full-stack e-commerce platform features a dynamic shopping experience built with PHP, MySQL, and jQuery. The application allows users to browse and search for clothing with real-time updates for size, color, and quantity-based pricing, supported by a multi-tier cart system and integrated Myanmar payment gateways including KBZPay, AYAPay, and WavePay. Designed with a robust three-tier authentication architecture, the system empowers Superadmins to manage roles, while Admins oversee inventory through automated low-stock notifications and verify pending orders to maintain seamless business operations.",
@@ -13,20 +20,16 @@ const Projects = () => {
       tags: ["PHP", "Tailwind CSS", "JQuery", "MySQL"],
       github: "https://github.com/Zayar-12/Online-Clothing-Store" // Placeholder link
     },
+  
+   
     {
-      title: "Attendance Marker",
-      description: "Developed during my fourth year of Computer Science, this Desktop Attendance Management System provides a secure, role-based platform for students and faculty. Teachers can manage attendance windows, filter student records by sections (CS-A, CS-B, and CT), and search for specific individuals, while students log in via institutional email to register presence.",
-      image: attendanceImg,
-      tags: ["Java", "RMI", "Window Form", "MySQL"],
-      github: "https://github.com/Zayar-12/Attendance-Marker-" // Placeholder link
+      title: "Online Clothing Store",
+      description: "Developed during my third year of Computer Science, this full-stack e-commerce platform features a dynamic shopping experience built with PHP, MySQL, and jQuery. The application allows users to browse and search for clothing with real-time updates for size, color, and quantity-based pricing, supported by a multi-tier cart system and integrated Myanmar payment gateways including KBZPay, AYAPay, and WavePay. Designed with a robust three-tier authentication architecture, the system empowers Superadmins to manage roles, while Admins oversee inventory through automated low-stock notifications and verify pending orders to maintain seamless business operations.",
+      image: profileImg,
+      tags: ["PHP", "Tailwind CSS", "JQuery", "MySQL"],
+      github: "https://github.com/Zayar-12/Online-Clothing-Store" // Placeholder link
     },
-    {
-      title: "Note App",
-      description: "A specialized Note-taking application designed to help users organize thoughts and manage tasks efficiently through a clean, responsive user interface.",
-      image: noteImg,
-      tags: ["React", "Tailwind Css", "React-Router-Dom"],
-      github: "https://github.com/Zayar-12/Note-App" // Placeholder link
-    }
+   
   ];
 
   return (
