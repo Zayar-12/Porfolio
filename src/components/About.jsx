@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   const skills = [
-    "React", "Next.js","Laravel" ,"TypeScript", "PHP", "JavaScript",
+    "React", "React Native","Laravel" ,"TypeScript", "PHP", "JavaScript",
     "Tailwind CSS","HTML5", "CSS3","GSAP",
      "Python","Java" ,"REST APIs", "MongoDB",
     "PostgreSQL", "MySQL", "Drizzle ORM","Auth.js","Zod","Resend"
@@ -14,7 +14,7 @@ const About = () => {
       <div className="text-center max-w-4xl mx-auto mb-16">
         <h2 className="text-5xl font-bold mb-6">About Me</h2>
         <p className="text-gray-600 text-lg leading-relaxed">
-         Final-year Computer Science student and Full-Stack Developer specializing in the React ecosystem. Currently pivoting toward Data Engineering with a focus on Python and diverse database technologies (PostgreSQL, MySQL, and MongoDB). I build applications with the future of data in mind.
+         Final-year Computer Science student and Full-Stack Developer specializing in the React ecosystem. Currently pivoting toward Mobile App Development with a focus on React Native and diverse database technologies (PostgreSQL, MySQL, and MongoDB). I build applications with the future of data in mind.
         </p>
       </div>
 
@@ -24,11 +24,11 @@ const About = () => {
           <h3 className="text-2xl font-bold mb-6">My Journey</h3>
           <div className="text-gray-600 space-y-4 leading-relaxed">
             <p>
-             I began my academic career as a Computer Science student with a drive to understand the architecture of the digital world. While mastering the fundamentals in the classroom, I dedicated myself to becoming proficient in React, PHP, and MySQL, building a solid foundation in functional web development. Currently, I am expanding my technical stack into the Next.js ecosystem, focusing on creating high-performance applications that bridge the gap between classic back-end logic and modern front-end efficiency.
+             I began my academic career as a Computer Science student with a drive to understand the architecture of the digital world. While mastering the fundamentals in the classroom, I dedicated myself to becoming proficient in React, PHP, and MySQL, building a solid foundation in functional web development. Currently, I am expanding my technical stack into the React Native ecosystem, focusing on creating high-performance  cross platform mobile applications that bridge the gap between classic back-end logic and modern mobile apps efficiency.
             </p>
-            <p>
+            {/* <p>
              Beyond the interface, my true passion lies in the flow and integrity of information. I am currently deep-diving into Data Engineering, mastering the complexities of MongoDB, Python, and the strategic roadmaps required to manage large-scale data systems. My goal is to evolve into a versatile engineer who can not only build beautiful user experiences but also design the robust data infrastructures that power them.
-            </p>
+            </p> */}
           </div>
 
           <h4 className="font-bold mt-10 mb-4">Experience Highlights</h4>

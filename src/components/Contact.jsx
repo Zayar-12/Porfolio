@@ -53,7 +53,7 @@ const Contact = () => {
         {/* Footer Copyright */}
         <footer className="border-t border-gray-100 pt-12">
           <p className="text-gray-400 text-sm tracking-wide">
-            © {new Date().getFullYear()} Khun Thi Han. All rights reserved.
+            © {new Date().getFullYear()} Zay Yar Lin Tun. All rights reserved.
           </p>
         </footer>
       </div>

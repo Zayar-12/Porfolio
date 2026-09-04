@@ -1,34 +1,59 @@
 import React from 'react'
 import { FiGithub } from 'react-icons/fi' // Import the GitHub icon
 import profileImg from '../assets/onlinceclothingstore.png'
+import JobPortal from '../assets/jobportal.png'
 import chatapp from '../assets/chatapp.png'
-import noteImg from '../assets/note.png'
+import votingSystem from '../assets/votingSystem.png'
 
 const Projects = () => {
   const projectList = [
-     {
+    //  {
+    //   title: "Job Portal",
+    //   description: "JobPortal is a robust, high-performance web platform designed to streamline the recruitment process. Developed over a span of ~2 months, it features a decoupled RESTful API architecture ensuring clean separation of concerns, high scalability, and a responsive Single Page Application (SPA) user experience. ",
+    //   image: JobPortal,
+    //   tags: ["Laravel", "Tailwind CSS", "React", "MySQL"],
+    //   github: "https://github.com/Zayar-12/JobPortal" // Placeholder link
+    // },
+    //  {
+    //   title: "Online Clothing Store",
+    //   description: "Developed during my third year of Computer Science, this full-stack e-commerce platform features a dynamic shopping experience built with PHP, MySQL, and jQuery. The application allows users to browse and search for clothing with real-time updates for size, color, and quantity-based pricing, supported by a multi-tier cart system and integrated Myanmar payment gateways including KBZPay, AYAPay, and WavePay. Designed with a robust three-tier authentication architecture, the system empowers Superadmins to manage roles, while Admins oversee inventory through automated low-stock notifications and verify pending orders to maintain seamless business operations.",
+    //   image: profileImg,
+    //   tags: ["PHP", "Tailwind CSS", "JQuery", "MySQL"],
+    //   github: "https://github.com/Zayar-12/Online-Clothing-Store" // Placeholder link
+    // },
+    //  {
+    //   title: "Chat App",
+    //   description: "Developed during my third year of Computer Science, this full-stack e-commerce platform features a dynamic shopping experience built with PHP, MySQL, and jQuery. The application allows users to browse and search for clothing with real-time updates for size, color, and quantity-based pricing, supported by a multi-tier cart system and integrated Myanmar payment gateways including KBZPay, AYAPay, and WavePay. Designed with a robust three-tier authentication architecture, the system empowers Superadmins to manage roles, while Admins oversee inventory through automated low-stock notifications and verify pending orders to maintain seamless business operations.",
+    //   image: chatapp,
+    //   tags: ["Laravel", "Tailwind CSS", "Livewire", "MySQL"],
+    //   github: "https://github.com/Zayar-12/chat-app" // Placeholder link
+    // },
+
+    {
+      title: "Job Portal",
+      description: "A robust, high-performance recruitment platform featuring a decoupled RESTful API architecture, advanced search and filtering, and dedicated portals for job seekers, employers, and administrators.",
+      image: JobPortal,
+      tags: ["Laravel", "Tailwind CSS", "React", "MySQL"],
+      github: "https://github.com/Zayar-12/JobPortal"
+    },
+    {
+      title: "Online Clothing Store",
+      description: "A full-stack e-commerce clothing platform featuring real-time dynamic pricing, a multi-tier cart system, and local Myanmar payment gateway integrations (KBZPay, AYAPay, WavePay), managed through a robust three-tier administrative role architecture.",
+      image: profileImg,
+      tags: ["PHP", "Tailwind CSS", "JQuery", "MySQL"],
+      github: "https://github.com/Zayar-12/Online-Clothing-Store"
+    },
+    {
       title: "Chat App",
-      description: "Developed during my third year of Computer Science, this full-stack e-commerce platform features a dynamic shopping experience built with PHP, MySQL, and jQuery. The application allows users to browse and search for clothing with real-time updates for size, color, and quantity-based pricing, supported by a multi-tier cart system and integrated Myanmar payment gateways including KBZPay, AYAPay, and WavePay. Designed with a robust three-tier authentication architecture, the system empowers Superadmins to manage roles, while Admins oversee inventory through automated low-stock notifications and verify pending orders to maintain seamless business operations.",
+      description: "A modern, real-time messaging web application built with Laravel Livewire and Tailwind CSS, featuring instant message delivery powered by reactive states, live user search, and secure Google OAuth authentication.",
       image: chatapp,
       tags: ["Laravel", "Tailwind CSS", "Livewire", "MySQL"],
-      github: "https://github.com/Zayar-12/chat-app" // Placeholder link
-    },
-    {
-      title: "Online Clothing Store",
-      description: "Developed during my third year of Computer Science, this full-stack e-commerce platform features a dynamic shopping experience built with PHP, MySQL, and jQuery. The application allows users to browse and search for clothing with real-time updates for size, color, and quantity-based pricing, supported by a multi-tier cart system and integrated Myanmar payment gateways including KBZPay, AYAPay, and WavePay. Designed with a robust three-tier authentication architecture, the system empowers Superadmins to manage roles, while Admins oversee inventory through automated low-stock notifications and verify pending orders to maintain seamless business operations.",
-      image: profileImg,
-      tags: ["PHP", "Tailwind CSS", "JQuery", "MySQL"],
-      github: "https://github.com/Zayar-12/Online-Clothing-Store" // Placeholder link
-    },
+      github: "https://github.com/Zayar-12/chat-app"
+    }
+   
   
    
-    {
-      title: "Online Clothing Store",
-      description: "Developed during my third year of Computer Science, this full-stack e-commerce platform features a dynamic shopping experience built with PHP, MySQL, and jQuery. The application allows users to browse and search for clothing with real-time updates for size, color, and quantity-based pricing, supported by a multi-tier cart system and integrated Myanmar payment gateways including KBZPay, AYAPay, and WavePay. Designed with a robust three-tier authentication architecture, the system empowers Superadmins to manage roles, while Admins oversee inventory through automated low-stock notifications and verify pending orders to maintain seamless business operations.",
-      image: profileImg,
-      tags: ["PHP", "Tailwind CSS", "JQuery", "MySQL"],
-      github: "https://github.com/Zayar-12/Online-Clothing-Store" // Placeholder link
-    },
+   
    
   ];
 

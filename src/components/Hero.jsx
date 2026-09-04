@@ -25,7 +25,7 @@ Transforming complex problems into elegant digital solutions. Specialized in bui
             
             {/* Primary 'Formal' Button */}
             <a 
-                href="/CV.pdf" 
+                href="/Zay Yar Lin Tun's CV.pdf" 
                 download
                 className='inline-flex items-center gap-2.5 px-7 py-3 bg-gray-950 text-white rounded-full text-base font-semibold hover:bg-gray-800 transition-colors shadow-lg'
             >
